@@ -6,7 +6,7 @@ const port = 5000;
 app.use(cors());
 app.use(express.json()); 
 const mongoURI =
-  "mongodb+srv://ramajeevitha:vcew@123@cluster0.clnlt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+  "mongodb+srv://22cse091:Glk1644o7MCAJBfS@cluster0.zhrmm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 mongoose
   .connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
